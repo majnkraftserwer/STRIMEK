@@ -1,0 +1,474 @@
+body {
+    background-image: url(png/bg.gif);
+    font-family: Arial;
+    }
+    
+
+    
+    
+    
+    .footer {
+    background-image: url(png/top.gif);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    background-size: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 937px;
+    color: white;
+    }
+	
+    @media screen and (max-width: 600px) {
+      /* Stylizacja na ma�e ekrany (np. telefony) */
+      .footer {
+        font-size: 14px; /* Przyk�adowe zmniejszenie rozmiaru czcionki */
+      }
+    }
+
+
+    
+
+
+    #okienkostrimerskie {
+        display: flex;
+        margin-top: 10px;
+        /* margin-bottom: 70px; */
+        /* margin-left: 40px;
+        margin-top: 40px; */
+        justify-content: center;
+        /* flex-direction: row; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .reklamki {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-around; */
+    }
+
+    .reklamki img {
+        height: 100px;
+    }
+
+    hr {
+        /* color: gray; */
+        height: 1px;
+        background-color: #595959;
+        border: none;
+    }
+
+    .text {
+        /* display: flex;
+        justify-content: space-around;
+        flex-direction:row; */
+    background-image: url(png/top.gif);
+    padding: 10px;
+    margin: auto;
+    width: 937px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+
+        }
+    .textara {
+        /* display: flex;
+        justify-content: center;
+        flex-direction: column; */
+    background-image: url(png/top.gif);
+    padding: 10px;
+    margin: auto;
+    width: 937px;
+    height: 900px
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+
+        }
+    
+    a {
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    .stream1 {
+        background-image: url(png/tlostream.png);
+        border: 3px solid grey;
+        border-radius: 10px;
+        padding: 10px;
+        width: 300px;
+        height: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        transition-property: background-color;
+        transition-duration: 0ms;
+        transition-timing-function: ease-in;
+        transition-delay: 0s;
+        }
+
+    .stream1:hover {
+        background-color:red;
+
+
+
+
+    }
+
+
+    #top {
+	padding: 10px;
+        height: 86px;
+        width: 937px;
+        border-radius: 10px;
+        margin-top: 10px;
+	margin: auto;
+        background: url(png/top.gif) #000;
+    }
+    
+    #toptop {
+        width: 250px;
+        float: left;
+        height: 20px
+    }
+    
+    a#logo {
+        width: 266px;
+        height: 50px;
+        float: left;
+        background: url(https://cdn.discordapp.com/attachments/1165910149454647296/1178354751503609877/Bez_nazwy-1.png?ex=6575d761&is=65636261&hm=c55d9d5db1f3e8fdddd0972de579a5bc4122ca5c4a19843c184c447fd2909cb7&);
+        display: block;
+        border: 0;
+        text-indent: -999em;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding: 0
+    }
+    
+    h1 {
+        padding: 0;
+        margin: 0;
+        margin-left: 25px;
+        display: block;
+        float: left;
+        font-size: 12px;
+        font-family: Arial;
+        font-weight: lighter;
+        color: #fff
+    }
+    
+    #menu {
+        width: 621px;
+        height: 35px;
+        float: right;
+        list-style: none;
+        padding: 0;
+        margin-top: 21px;
+        background: url(png/toptop.jpg);
+        padding-top: 11px;
+        padding-left: 0px;
+        padding-right: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    
+    #menu li {
+        display: block;
+        list-style: none;
+    }
+    
+    a.menu1 {
+        height: 19px;
+        width: 120px;
+        float: left;
+        background: 0 0;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 5px;
+        font-weight: 700;
+	border-radius: 10px;
+	margin-left: 5px;
+    }
+    
+    a.menu30 {
+        height: 19px;
+        width: 164px;
+        float: left;
+        background: 0 0;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 7px;
+        font-weight: 700;
+
+    }
+    
+    a.menu30:hover {
+        background: url(png/m4.gif);
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    a.menu1:hover {
+        background: url(png/m1.gif);
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    a.menu2 {
+        height: 19px;
+        width: 102px;
+        float: left;
+        background: 0 0;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 5px;
+	border-radius: 10px;
+    }
+    
+    a.menu2:hover {
+        background: url(png/m2.gif);
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    a.menu3 {
+        height: 19px;
+        width: 65px;
+        float: left;
+        background: 0 0;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 7px;
+    }
+    
+    a.menu3:hover {
+        background: url(png/m4.gif);
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    a.menu4 {
+        height: 19px;
+        width: 90px;
+        float: left;
+        background: 0 0;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 7px;
+    }
+    
+    a.menu4:hover {
+        background: url(m4.png);
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    #prawo {
+        width: 300px;
+        float: right;
+    }
+    
+    .panel {
+        width: 300px;
+        float: left;
+        margin-bottom: 0px;
+    }
+    
+    .panel_t {
+        width: 285px;
+        height: 25px;
+        float: left;
+        background: url(https://www.drhtv.com.pl/images/belka.gif);
+        color: #fff;
+        font-weight: 700;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+    .panel_tr {
+        width: 300px;
+        float: left;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        line-height: 18px;
+    }
+    
+    .panel_tr a {
+        color: #f8a268;
+        text-decoration: none;
+    }
+    
+
+    .box {
+        width: 640px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    
+    .box_t {
+        width: 640px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        /* margin-bottom: 12px; */
+    }
+    
+    /* #tytulekpiekny {
+        width: 640px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    } */
+
+    .mecze {
+        width: 640px;
+        float: left;
+    }
+    
+    .mecze a {
+        color: #fff;
+    }
+    
+    .mecz {
+        width: 640px;
+        height: 39px;
+        float: left;
+        background: url(https://www.drhtv.com.pl/images/mtlo.png);
+        padding-top: 13px;
+    }
+    
+    .mecz_h {
+        width: 80px;
+        float: left;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 6px;
+    }
+
+    .mecz_t {
+        width: 450px;
+        float: left;
+        text-align: center
+    }
+    
+    .mecz_p {
+        width: 110px;
+        float: left;
+        text-align: center;
+        margin-top: 2px
+    }
+    
+    a.play {
+        width: 72px;
+        height: 25px;
+        float: right;
+        background: url(https://cdn.discordapp.com/attachments/1165910149454647296/1178362590435491881/play.png?ex=6575deae&is=656369ae&hm=2d36a5a79469c29dc05bb5acdc4ce727f7416fae9087ff2a6d87e65a45e06c26&) top;
+        text-indent: -999em;
+        margin-right: 20px
+    }
+    
+    a.play:hover {
+        background: url(https://cdn.discordapp.com/attachments/1165910149454647296/1178362590435491881/play.png?ex=6575deae&is=656369ae&hm=2d36a5a79469c29dc05bb5acdc4ce727f7416fae9087ff2a6d87e65a45e06c26&) bottom;
+    }
+
+    .player {
+	margin-right: 1000px;
+
+
+    }    
+
+
+
+    	::-webkit-scrollbar {
+    	width: 10px;
+	}
+		
+	::-webkit-scrollbar-track {
+    	background: #888;
+	}
+
+	::-webkit-scrollbar-thumb {
+    	background: red;
+    	border-radius: 50px;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+    	background: darkred;
+	}
+
+
+	#chat {
+
+        margin-left: 10px;
+        /* width: 500px; */
+	/* margin-left: 500px; */
+	/* margin-bottom: 300px; */
+
+
+	}
+
+
+
+	video{
+	/* margin-right: 600px */
+    width: 600px;
+    height: 400px;
+
+}
+
+
+#buttonsiki button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(121, 0, 0);
+    color: white;
+    outline: 0px;
+    border: 0px;
+    border-radius: 7px;
+
+    /* display: flex; */
+
+}
+
+#buttonsiki button:hover {
+    cursor: pointer;
+    background-color: rgb(79, 0, 0);
+    
+    /* display: flex; */
+
+}
